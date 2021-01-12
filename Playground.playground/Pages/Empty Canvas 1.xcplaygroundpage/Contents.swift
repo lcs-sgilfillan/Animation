@@ -43,6 +43,9 @@ canvas.drawAxes(withScale: true, by: 50)
 //body
 canvas.drawEllipse(at: Point(x: 150, y: 300), width: 170, height: 200)
 
+//background colour
+
+
 
 //Head
 canvas.drawEllipse(at: Point(x: 185, y: 430), width: 30, height: 30)
@@ -89,9 +92,24 @@ canvas.drawEllipse(at: Point(x: 80, y: 230), width: 20, height: 20)
 canvas.drawEllipse(at: Point(x: 75, y: 225), width: 15, height: 15)
 canvas.drawEllipse(at: Point(x: 85, y: 225), width: 15, height: 15)
 //right leg
-canvas.drawEllipse(at: Point(x: 220, y: 245), width: 10, height: 12)
-canvas.drawEllipse(at: Point(x: 237, y: 252), width: 10, height: 12)
-canvas.drawEllipse(at: Point(x: 250, y: 245), width: 10, height: 12)
+canvas.drawEllipse(at: Point(x: 205, y: 245), width: 10, height: 12)
+canvas.drawEllipse(at: Point(x: 222, y: 252), width: 10, height: 12)
+canvas.drawEllipse(at: Point(x: 235, y: 245), width: 10, height: 12)
+canvas.drawEllipse(at: Point(x: 222, y: 230), width: 20, height: 20)
+canvas.drawEllipse(at: Point(x: 215, y: 225), width: 15, height: 15)
+canvas.drawEllipse(at: Point(x: 227, y: 225), width: 15, height: 15)
+
+//mouth
+canvas.drawCurve(from: Point(x: 130, y: 370),
+                 to: Point(x: 170, y: 370),
+                 control1: Point(x: 130, y: 360),
+                 control2: Point(x: 170, y: 360),
+                 showControlPoints: false)
+
+//nose
+canvas.drawEllipse(at: Point(x: 150, y: 380), width: 25, height: 20)
+                 
+
 
 /*:
  ## Show the Live View
