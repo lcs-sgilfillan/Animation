@@ -67,6 +67,14 @@ secondtriangleVertices.append(Point(x: 300, y: 450))
 secondtriangleVertices.append(Point(x: 335, y: 435))
 canvas.drawCustomShape(with: secondtriangleVertices)
 
+//Triangle 4
+var thirdtriangleVertices: [Point] = []
+thirdtriangleVertices.append(Point(x: 300, y: 450))
+thirdtriangleVertices.append(Point(x: 335, y: 435))
+thirdtriangleVertices.append(Point(x: 285, y: 435))
+thirdtriangleVertices.append(Point(x: 300, y: 450))
+canvas.drawCustomShape(with: thirdtriangleVertices)
+
 
 
 
