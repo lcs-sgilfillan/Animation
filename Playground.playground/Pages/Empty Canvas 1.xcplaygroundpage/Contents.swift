@@ -108,7 +108,12 @@ canvas.drawCurve(from: Point(x: 130, y: 370),
 
 //nose
 canvas.drawEllipse(at: Point(x: 150, y: 380), width: 25, height: 20)
-                 
+//Ban boo
+canvas.fillColor = Color.green
+canvas.drawRectangle(at: Point(x: 50, y: 360), width: 15, height: 300)
+canvas.drawRectangle(at: Point(x: 200, y: 380), width: 15, height: 300)
+canvas.drawRectangle(at: Point(x: 250, y: 350), width: 15, height: 300)
+
 
 
 /*:
