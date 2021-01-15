@@ -146,7 +146,30 @@ twelvetriangleVertices.append(Point(x: 310, y: 285))
 twelvetriangleVertices.append(Point(x: 335, y: 335))
 canvas.drawCustomShape(with: twelvetriangleVertices)
 
-//
+//Triangle 13
+var thirteentriangleVertices: [Point] = []
+thirteentriangleVertices.append(Point(x: 285, y: 375))
+thirteentriangleVertices.append(Point(x: 285, y: 350))
+thirteentriangleVertices.append(Point(x: 250, y: 350))
+thirteentriangleVertices.append(Point(x: 285, y: 375))
+canvas.drawCustomShape(with: thirteentriangleVertices)
+ 
+//Triangle 14
+var forteentriangleVertices: [Point] = []
+forteentriangleVertices.append(Point(x: 285, y: 350))
+forteentriangleVertices.append(Point(x: 250, y: 350))
+forteentriangleVertices.append(Point(x: 285, y: 335))
+forteentriangleVertices.append(Point(x: 285, y: 350))
+canvas.drawCustomShape(with: forteentriangleVertices)
+
+//Triangle 15
+var fifteentriangleVertices: [Point] = []
+fifteentriangleVertices.append(Point(x: 285, y: 335))
+fifteentriangleVertices.append(Point(x: 285, y: 285))
+fifteentriangleVertices.append(Point(x: 200, y: 285))
+fifteentriangleVertices.append(Point(x: 285, y: 335))
+canvas.drawCustomShape(with: fifteentriangleVertices)
+
 
 
 
