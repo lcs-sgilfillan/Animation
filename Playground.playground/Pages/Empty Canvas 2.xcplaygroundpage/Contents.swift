@@ -170,6 +170,80 @@ fifteentriangleVertices.append(Point(x: 200, y: 285))
 fifteentriangleVertices.append(Point(x: 285, y: 335))
 canvas.drawCustomShape(with: fifteentriangleVertices)
 
+//Triangle 16
+var sixteentriangleVertices: [Point] = []
+sixteentriangleVertices.append(Point(x: 250, y: 350))
+sixteentriangleVertices.append(Point(x: 285, y: 335))
+sixteentriangleVertices.append(Point(x: 200, y: 285))
+sixteentriangleVertices.append(Point(x: 250, y: 350))
+canvas.drawCustomShape(with: sixteentriangleVertices)
+
+//Triangle 17
+var seventeentriangleVertices: [Point] = []
+seventeentriangleVertices.append(Point(x: 200, y: 285))
+seventeentriangleVertices.append(Point(x: 250, y: 350))
+seventeentriangleVertices.append(Point(x: 235, y: 350))
+seventeentriangleVertices.append(Point(x: 200, y: 285))
+canvas.drawCustomShape(with: seventeentriangleVertices)
+
+//Triangle 18
+var eightteentriangleVertices: [Point] = []
+eightteentriangleVertices.append(Point(x: 200, y: 285))
+eightteentriangleVertices.append(Point(x: 235, y: 350))
+eightteentriangleVertices.append(Point(x: 190, y: 350))
+eightteentriangleVertices.append(Point(x: 200, y: 285))
+canvas.drawCustomShape(with: eightteentriangleVertices)
+
+//Triangle 19
+var nineteentriangleVertices: [Point] = []
+nineteentriangleVertices.append(Point(x: 190, y: 350))
+nineteentriangleVertices.append(Point(x: 200, y: 285))
+nineteentriangleVertices.append(Point(x: 185, y: 335))
+nineteentriangleVertices.append(Point(x: 190, y: 350))
+canvas.drawCustomShape(with: nineteentriangleVertices)
+
+//Triangle 20
+var twentytriangleVertices: [Point] = []
+twentytriangleVertices.append(Point(x: 200, y: 285))
+twentytriangleVertices.append(Point(x: 285, y: 285))
+twentytriangleVertices.append(Point(x: 250, y: 235))
+twentytriangleVertices.append(Point(x: 200, y: 285))
+canvas.drawCustomShape(with: twentytriangleVertices)
+
+//Triangle 21
+var tonetriangleVertices: [Point] = []
+tonetriangleVertices.append(Point(x: 250, y: 235))
+tonetriangleVertices.append(Point(x: 285, y: 285))
+tonetriangleVertices.append(Point(x: 285, y: 235))
+tonetriangleVertices.append(Point(x: 250, y: 235))
+canvas.drawCustomShape(with: tonetriangleVertices)
+
+//Triangle 22
+var ttwotriangleVertices: [Point] = []
+ttwotriangleVertices.append(Point(x: 310, y: 285))
+ttwotriangleVertices.append(Point(x: 285, y: 285))
+ttwotriangleVertices.append(Point(x: 285, y: 235))
+ttwotriangleVertices.append(Point(x: 310, y: 285))
+canvas.drawCustomShape(with: ttwotriangleVertices)
+
+//Triangle 23
+var tthreetriangleVertices: [Point] = []
+tthreetriangleVertices.append(Point(x: 200, y: 285))
+tthreetriangleVertices.append(Point(x: 185, y: 335))
+tthreetriangleVertices.append(Point(x: 160, y: 285))
+tthreetriangleVertices.append(Point(x: 200, y: 285))
+canvas.drawCustomShape(with: tthreetriangleVertices)
+
+//Traingle 24
+var tfourtriangleVertices: [Point] = []
+tfourtriangleVertices.append(Point(x: 200, y: 285))
+tfourtriangleVertices.append(Point(x: 250, y: 235))
+tfourtriangleVertices.append(Point(x: 185, y: 235))
+tfourtriangleVertices.append(Point(x: 200, y: 285))
+canvas.drawCustomShape(with: tfourtriangleVertices)
+
+
+
 
 
 
