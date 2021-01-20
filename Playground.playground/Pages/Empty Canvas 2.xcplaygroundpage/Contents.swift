@@ -242,6 +242,57 @@ tfourtriangleVertices.append(Point(x: 185, y: 235))
 tfourtriangleVertices.append(Point(x: 200, y: 285))
 canvas.drawCustomShape(with: tfourtriangleVertices)
 
+//Triangle 25
+var tfivetriangleVertices: [Point] = []
+tfivetriangleVertices.append(Point(x: 185, y: 235))
+tfivetriangleVertices.append(Point(x: 185, y: 285))
+tfivetriangleVertices.append(Point(x: 150, y: 235))
+tfivetriangleVertices.append(Point(x: 185, y: 235))
+canvas.drawCustomShape(with: tfivetriangleVertices)
+
+//Triangle 26
+var tsixtriangleVertices: [Point] = []
+tsixtriangleVertices.append(Point(x: 185, y: 235))
+tsixtriangleVertices.append(Point(x: 200, y: 285))
+tsixtriangleVertices.append(Point(x: 185, y: 285))
+tsixtriangleVertices.append(Point(x: 185, y: 235))
+canvas.drawCustomShape(with: tsixtriangleVertices)
+
+//Triangle 27
+var tseventriangleVertices: [Point] = []
+tseventriangleVertices.append(Point(x: 150, y: 235))
+tseventriangleVertices.append(Point(x: 185, y: 285))
+tseventriangleVertices.append(Point(x: 150, y: 285))
+tseventriangleVertices.append(Point(x: 150, y: 235))
+canvas.drawCustomShape(with: tseventriangleVertices)
+
+//Triangle 28
+var teighttriangleVertices: [Point] = []
+teighttriangleVertices.append(Point(x: 150, y: 235))
+teighttriangleVertices.append(Point(x: 160, y: 285))
+teighttriangleVertices.append(Point(x: 135, y: 285))
+teighttriangleVertices.append(Point(x: 150, y: 235))
+canvas.drawCustomShape(with: teighttriangleVertices)
+
+//Triangle 29
+var tninetriangleVertices: [Point] = []
+tninetriangleVertices.append(Point(x: 185, y: 335))
+tninetriangleVertices.append(Point(x: 160, y: 285))
+tninetriangleVertices.append(Point(x: 140, y: 285))
+tninetriangleVertices.append(Point(x: 185, y: 335))
+canvas.drawCustomShape(with: tninetriangleVertices)
+
+//Triangle 30
+var threezerotriangleVertices: [Point] = []
+threezerotriangleVertices.append(Point(x: 140, y: 285))
+threezerotriangleVertices.append(Point(x: 135, y: 285))
+threezerotriangleVertices.append(Point(x: 185, y: 335))
+threezerotriangleVertices.append(Point(x: 140, y: 285))
+canvas.drawCustomShape(with: threezerotriangleVertices)
+
+
+
+
 
 
 
