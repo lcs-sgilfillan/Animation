@@ -36,8 +36,53 @@ PlaygroundPage.current.liveView = canvas
 
  */
 
-// Replace this comment with your first comment – what is the goal of the code you're about to write?
-canvas.drawRectangle(at: Point(x: 50, y: 75), width: 100, height: 200)
+// Grid/scale
+canvas.drawAxes(withScale: true, by: 50)
+
+
+//Top green rectangle
+canvas.fillColor = Color(hue: 106,saturation: 64, brightness: 73,
+    alpha: 100)
+
+canvas.drawRectangle(at: Point(x: 0, y: 400), width: 400, height: 200)
+
+// Bottom rectangle
+canvas.fillColor = Color(hue: 0,saturation: 0, brightness: 0,
+    alpha: 100)
+
+canvas.drawRectangle(at: Point(x: 0, y: 0), width: 400, height: 400)
+
+//circle pattern
+
+
+for x in stride(from: 0,
+                to: 400,
+                by: 40) {
+    
+    for y in stride(from: 0,
+                    to: 400,
+                    by: 40) {
+        
+        canvas.fillColor = Color(hue: 106,saturation: 64, brightness: 73,
+            alpha: 100)
+        
+        canvas.drawEllipse(at: Point(x: x + 10, y: y + 20),  width: 40, height: 40)
+
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*:
  ## Show the Live View
@@ -54,3 +99,4 @@ canvas.drawRectangle(at: Point(x: 50, y: 75), width: 100, height: 200)
  
  ![source_control](source-control.png "Source Control")
  */
+    }

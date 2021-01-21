@@ -59,6 +59,12 @@ triangleVertices.append(Point(x: 340, y: 390))
 triangleVertices.append(Point(x: 375, y: 435))
 canvas.drawCustomShape(with: triangleVertices)
 
+// colour
+canvas.fillColor = Color(hue: 0,
+                         saturation: 0,
+                         brightness: 90,
+                         alpha: 100)
+
 //Triangle 3
 var secondtriangleVertices: [Point] = []
 secondtriangleVertices.append(Point(x: 335, y: 435))
@@ -66,6 +72,13 @@ secondtriangleVertices.append(Point(x: 350, y: 450))
 secondtriangleVertices.append(Point(x: 300, y: 450))
 secondtriangleVertices.append(Point(x: 335, y: 435))
 canvas.drawCustomShape(with: secondtriangleVertices)
+
+// Colour
+
+canvas.fillColor = Color(hue: 0,
+                         saturation: 0,
+                         brightness: 80,
+                         alpha: 100)
 
 //Triangle 4
 var thirdtriangleVertices: [Point] = []
@@ -91,6 +104,13 @@ fithtriangleVertices.append(Point(x: 310, y: 390))
 fithtriangleVertices.append(Point(x: 335, y: 435))
 canvas.drawCustomShape(with: fithtriangleVertices)
 
+//Colour
+
+canvas.fillColor = Color(hue: 0,
+                         saturation: 0,
+                         brightness: 80,
+                         alpha: 100)
+
 //Triangle 7
 var sixtriangleVertices: [Point] = []
 sixtriangleVertices.append(Point(x: 335, y: 435))
@@ -98,6 +118,13 @@ sixtriangleVertices.append(Point(x: 310, y: 390))
 sixtriangleVertices.append(Point(x: 340, y: 390))
 sixtriangleVertices.append(Point(x: 335, y: 435))
 canvas.drawCustomShape(with: sixtriangleVertices)
+
+//colour
+
+canvas.fillColor = Color(hue: 0,
+                         saturation: 0,
+                         brightness: 90,
+                         alpha: 100)
 
 //Triangle 8
 var seventriangleVertices: [Point] = []
@@ -107,6 +134,12 @@ seventriangleVertices.append(Point(x: 355, y: 390))
 seventriangleVertices.append(Point(x: 310, y: 390))
 canvas.drawCustomShape(with: seventriangleVertices)
 
+//colour
+canvas.fillColor = Color(hue: 0,
+                         saturation: 0,
+                         brightness: 100,
+                         alpha: 100)
+
 //Triangle 8
 var eighttriangleVertices: [Point] = []
 eighttriangleVertices.append(Point(x: 355, y: 410))
@@ -115,6 +148,13 @@ eighttriangleVertices.append(Point(x: 395, y: 390))
 eighttriangleVertices.append(Point(x: 355, y: 410))
 canvas.drawCustomShape(with: eighttriangleVertices)
 
+
+//Colour
+
+canvas.fillColor = Color(hue: 0,
+                         saturation: 0,
+                         brightness: 70,
+                         alpha: 100)
 //Triangle 9
 var ninetriangleVertices: [Point] = []
 ninetriangleVertices.append(Point(x: 355, y: 390))
@@ -122,6 +162,14 @@ ninetriangleVertices.append(Point(x: 285, y: 375))
 ninetriangleVertices.append(Point(x: 285, y: 400))
 ninetriangleVertices.append(Point(x: 355, y: 390))
 canvas.drawCustomShape(with: ninetriangleVertices)
+
+
+//Colour
+
+canvas.fillColor = Color(hue: 0,
+                         saturation: 0,
+                         brightness: 80,
+                         alpha: 100)
 
 //Triangle 10
 var tentriangleVertices: [Point] = []
@@ -162,6 +210,13 @@ forteentriangleVertices.append(Point(x: 285, y: 335))
 forteentriangleVertices.append(Point(x: 285, y: 350))
 canvas.drawCustomShape(with: forteentriangleVertices)
 
+//Triangle 15 grey
+canvas.fillColor = Color(hue: 0,
+                         saturation: 0,
+                         brightness: 60,
+                         alpha: 100)
+
+
 //Triangle 15
 var fifteentriangleVertices: [Point] = []
 fifteentriangleVertices.append(Point(x: 285, y: 335))
@@ -169,6 +224,13 @@ fifteentriangleVertices.append(Point(x: 285, y: 285))
 fifteentriangleVertices.append(Point(x: 200, y: 285))
 fifteentriangleVertices.append(Point(x: 285, y: 335))
 canvas.drawCustomShape(with: fifteentriangleVertices)
+
+//Triangle 16 color
+
+canvas.fillColor = Color(hue: 0,
+                         saturation: 0,
+                         brightness: 90,
+                         alpha: 100)
 
 //Triangle 16
 var sixteentriangleVertices: [Point] = []
@@ -202,6 +264,14 @@ nineteentriangleVertices.append(Point(x: 185, y: 335))
 nineteentriangleVertices.append(Point(x: 190, y: 350))
 canvas.drawCustomShape(with: nineteentriangleVertices)
 
+
+// colour
+
+canvas.fillColor = Color(hue: 0,
+                         saturation: 0,
+                         brightness: 80,
+                         alpha: 100)
+
 //Triangle 20
 var twentytriangleVertices: [Point] = []
 twentytriangleVertices.append(Point(x: 200, y: 285))
@@ -226,6 +296,13 @@ ttwotriangleVertices.append(Point(x: 285, y: 235))
 ttwotriangleVertices.append(Point(x: 310, y: 285))
 canvas.drawCustomShape(with: ttwotriangleVertices)
 
+
+//Triangle 23 grey
+canvas.fillColor = Color(hue: 0,
+                         saturation: 0,
+                         brightness: 60,
+                         alpha: 100)
+
 //Triangle 23
 var tthreetriangleVertices: [Point] = []
 tthreetriangleVertices.append(Point(x: 200, y: 285))
@@ -234,6 +311,13 @@ tthreetriangleVertices.append(Point(x: 160, y: 285))
 tthreetriangleVertices.append(Point(x: 200, y: 285))
 canvas.drawCustomShape(with: tthreetriangleVertices)
 
+
+//colour
+
+canvas.fillColor = Color(hue: 0,
+                         saturation: 0,
+                         brightness: 80,
+                         alpha: 100)
 //Traingle 24
 var tfourtriangleVertices: [Point] = []
 tfourtriangleVertices.append(Point(x: 200, y: 285))
@@ -290,6 +374,23 @@ threezerotriangleVertices.append(Point(x: 185, y: 335))
 threezerotriangleVertices.append(Point(x: 140, y: 285))
 canvas.drawCustomShape(with: threezerotriangleVertices)
 
+canvas.drawCurve(from: Point(x: 50, y: 200),
+                 to: Point(x: 185, y: 250),
+                 control1: Point(x: 100, y: 200),
+                 control2: Point(x: 150, y: 185),
+                 showControlPoints: false)
+
+canvas.drawCurve(from: Point(x: 185, y: 250),
+                 to: Point(x: 285, y: 250),
+                 control1: Point(x: 200, y: 235),
+                 control2: Point(x: 250, y: 235),
+                 showControlPoints: false)
+
+canvas.drawCurve(from: Point(x: 285, y: 250),
+                 to: Point(x: 400, y: 200),
+                 control1: Point(x: 350, y: 200),
+                 control2: Point(x: 335, y: 200),
+                 showControlPoints: false)
 
 
 

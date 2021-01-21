@@ -36,9 +36,35 @@ PlaygroundPage.current.liveView = canvas
 
  */
 
-// Replace this comment with your first comment – what is the goal of the code you're about to write?
-canvas.drawRectangle(at: Point(x: 50, y: 75), width: 100, height: 200)
+// Grid/scale
+canvas.drawAxes(withScale: true, by: 50)
 
+
+// Circle thing
+
+for y in stride(from: 0,
+                to: 300,
+                by: 50) {
+    
+    for x in stride(from: 0,
+                    to: 300,
+                    by: 50) {
+    
+        //Draw black cicrle
+        canvas.fillColor = Color.black
+        canvas.drawEllipse(at: Point(x: x + 25, y: y + 25),  width: 50, height: 50)
+        
+        //Create a random size
+        let size = Int.random(in: 10...40)
+        
+        //Draw white circle
+        canvas.fillColor = Color.white
+        canvas.drawEllipse(at: Point(x: x + 25, y: y + 25),
+                        width: size,
+                        height: size)
+    }
+    
+    
 /*:
  ## Show the Live View
  Don't see any results?
@@ -54,3 +80,4 @@ canvas.drawRectangle(at: Point(x: 50, y: 75), width: 100, height: 200)
  
  ![source_control](source-control.png "Source Control")
  */
+}
