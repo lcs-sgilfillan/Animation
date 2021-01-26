@@ -4,7 +4,7 @@
  
  Set the size of your desired canvas by adjusting the constants on lines 19 and 20.
  */
-let preferredWidth = 600
+let preferredWidth = 400
 let preferredHeight = 600
 /*:
  ## Required code
@@ -36,8 +36,39 @@ PlaygroundPage.current.liveView = canvas
 
  */
 
-// Replace this comment with your first comment – what is the goal of the code you're about to write?
-canvas.drawRectangle(at: Point(x: 50, y: 75), width: 100, height: 200)
+// Grid
+canvas.drawAxes(withScale: true, by: 50)
+
+
+//Background
+
+//top black
+canvas.drawRectangle(at: Point(x: 0, y: 400), width: 400, height: 200)
+//bottom left black
+canvas.drawRectangle(at: Point(x: 0, y: 0), width: 135, height: 100)
+//mid black
+canvas.drawRectangle(at: Point(x: 0, y: 200), width: 135, height: 100)
+//white shapes
+
+canvas.fillColor = Color.white
+//top white
+canvas.drawRectangle(at: Point(x: 0, y: 100), width: 135, height: 100)
+//mid white
+canvas.drawRectangle(at: Point(x: 0, y: 300), width: 135, height: 100)
+// grey shape
+
+canvas.fillColor = Color(hue: 0,
+                         saturation: 0,
+                         brightness: 15,
+                         alpha: 100)
+
+canvas.drawRectangle(at: Point(x: 135, y: 0), width: 300, height: 400)
+
+//
+
+
+
+
 
 /*:
  ## Show the Live View

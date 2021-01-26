@@ -103,9 +103,15 @@ canvas.drawRectangle(at: Point(x: 400, y: 0), width: 50, height: 600)
     
     canvas.drawText(message: "at the rat", at: Point(x: 285, y: 550), size: 10, kerning: 0.0)
     
-    canvas.drawText(message: "528 commonwealth", at: Point(x: 285, y: 530), size: 10, kerning: 0.0)
+    canvas.drawText(message: "528 commonwealth", at: Point(x: 285, y: 540), size: 10, kerning: 0.0)
     
-    canvas.drawText(message: "Boston, mass.", at: Point(x: 285, y: 520), size: 10, kerning: 0.0)
+    canvas.drawText(message: "Boston, mass.", at: Point(x: 285, y: 530), size: 10, kerning: 0.0)
+    
+    canvas.drawText(message: "saturday", at: Point(x: 50, y: 550), size: 10, kerning: 0.0)
+    
+    canvas.drawText(message: "december 13 1986", at: Point(x: 50, y: 535), size: 10, kerning: 0.0)
+    
+    canvas.drawText(message: "9 pm over 21", at: Point(x: 50, y: 520), size: 10, kerning: 0.0)
     
     //White text
     
@@ -116,6 +122,8 @@ canvas.drawRectangle(at: Point(x: 400, y: 0), width: 50, height: 600)
     canvas.drawText(message: "throughing muses", at: Point(x: 285, y: 470), size: 12, kerning: 0.0)
     
     canvas.drawText(message: "big dipper", at: Point(x: 285, y: 450), size: 12, kerning: 0.0)
+    
+
 
 
 
