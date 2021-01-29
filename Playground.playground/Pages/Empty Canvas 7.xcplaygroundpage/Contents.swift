@@ -4,8 +4,8 @@
  
  Set the size of your desired canvas by adjusting the constants on lines 19 and 20.
  */
-let preferredWidth = 600
-let preferredHeight = 600
+let preferredWidth = 425
+let preferredHeight = 425
 /*:
  ## Required code
  
@@ -36,8 +36,17 @@ PlaygroundPage.current.liveView = canvas
 
  */
 
-// Replace this comment with your first comment – what is the goal of the code you're about to write?
-canvas.drawRectangle(at: Point(x: 50, y: 75), width: 100, height: 200)
+// random circles
+
+//Grid
+canvas.drawAxes(withScale: true, by: 50)
+
+for i in stride(from: 100, through: 400, by: 100) {
+    canvas.drawEllipse(at: Point(x: i, y: 100), width: 50, height: 50)
+}
+
+
+
 
 /*:
  ## Show the Live View
